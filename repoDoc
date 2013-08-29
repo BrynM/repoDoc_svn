@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#
+# you can set a couple of things here
+#
+export phpPath=/usr/bin/php
+export repoDocPath=/path/to/repoDoc.php
+export niceness=16
+
+#
+# no more user setale things
+#
+
+#
+# now we start our script
+#
+export wpid=$$
+
+nice -n $niceness $phpPath -f $repoDocPath -- $*
+
+exit $?
