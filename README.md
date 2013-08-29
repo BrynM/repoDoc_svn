@@ -8,6 +8,8 @@ Be Warned
 
 This was written many years ago and may seem a little antiquated. The last commit to the old repo was in 2008. repoDoc_functions.php had a last modified date in 2006 on my machine.
 
+Also CVS support was never fully integrated and probably doesn't work at all.
+
 Usage
 ===========
 
