@@ -3,6 +3,11 @@ repoDoc_svn
 
 An old wrapper for Subversion and PHPDocumentor combined featuring temp checkouts and other such niceties. Someday to have git integrated... maybe.
 
+Be Warned
+===========
+
+This was written many years ago and may seem a little antiquated. The last commit to the old repo was in 2008. repoDoc_functions.php had a last modified date in 2006 on my machine.
+
 Usage
 ===========
 
