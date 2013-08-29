@@ -24,29 +24,28 @@ Usage
       -c, --cvs                  CVS repository path to check out. Please provide
                                    the full path to remote repositories. For
                                    example, STUFF "-c THINGS".
-    REQUIRED: location
+                                   REQUIRED: location
       -s, --svn                  Subversion repository path to check out. Please
                                    provide the full path to remote repositories.
                                    For example, "-s
                                    svn+ssh://somehost/svn/project/trunk".
-    REQUIRED:
-                                   location
+                                   REQUIRED: location
       -d, --dest, --destination  Destination of the pdpDocumentor output.
                                    REQUIRED: directory
       -f, --format               phpDoc output format. The default is
                                    "HTML:frames:default". Only one format is
                                    allowed (for now).
-    REQUIRED: location
+                                   REQUIRED: location
       -k, --keep                 Keep checked out working copy from repository
       -l, --log                  Output repository fetch and phpDoc command output
                                    to filename. The default filname is
                                    "repodoc.log" in the current working
                                    directory.
-    REQUIRED: (filename)
+                                   REQUIRED: (filename)
       -n, --nocheckout           Do not attempt any revisioning operations and
                                    assume source to parse documantation from is
                                    directory.
-    REQUIRED: directory
+                                   REQUIRED: directory
       -q, --quiet                Quiet mode. Supresses console output of external
                                    utilities.
       -h, --help                 Display help text and exit.
